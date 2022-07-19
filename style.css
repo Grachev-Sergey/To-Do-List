@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(216, 216, 216);
+}
+html {
+    font-family: 'Roboto';
+}
+.header {
+    text-align: center;
+    margin: 30px auto 30px auto;
+}
+.todo_add {
+    background-color: rgb(193, 193, 193);
+    display: flex;
+    margin: auto;
+    margin-bottom: 30px;
+    justify-content: center;
+    height: 50px;
+    width: 500px;
+    border-radius: 12px;
+}
+.todo_addInput {
+    background-color: rgb(193, 193, 193);
+    margin: auto 30px auto 10px;
+}
+#description_task {
+    background-color: rgb(193, 193, 193);
+    width: 300px;
+    border-radius: 5px;
+}
+.todo_addButton{
+    background-color: rgb(193, 193, 193);
+    margin: 13px 15px 0 0;
+}
+#add_task_btn {
+    background-color: rgb(187, 175, 175);
+    padding: 3px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.hover :hover {
+    background: #1f1fa7;
+}
+
+.tasks {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    height: 55px;
+    width: 500px;
+
+}
+
+.todo_item {
+    background-color: rgb(193, 193, 193);
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+    justify-content: center;
+    height: 50px;
+    width: 500px;
+    border-radius: 12px;
+}
+
+.todo_description {
+    background-color: rgb(193, 193, 193);
+    width: 300px;
+    margin: auto 30px auto 10px;
+}
+.todo_btns {
+    display: flex;
+    background-color: rgb(193, 193, 193);
+    margin: auto 30px auto 5px;
+    width: 100px;
+    
+}
+.todo_btns_complete {
+    margin: 5px 0px;
+    height: 20px;
+    width: 20px;
+}
+.todo_btns_delete {
+    background-color: rgb(187, 175, 175);
+    padding: 3px 13px;
+    border-radius: 12px;
+    margin: auto;
+    margin-left: 13px;
+    cursor: pointer;
+}
+.checked {
+    background-color:rgb(108, 87, 87);
+    opacity: 0.7;
+}
